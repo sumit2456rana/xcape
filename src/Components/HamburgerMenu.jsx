@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function HamburgerMenu({ openMenu }) {
     return (
         <div className={`xl:w-[30%] w-[65%] h-screen px-[5%] bg-bgTheme fixed top-[70px] duration-[0.25s] ease-linear z-50 ${openMenu ? 'right-0' : 'xl:right-[-30%] right-[-65%]'}`}>
-            <div className="flex flex-col justify-around h-[90%] w-full">
+            <div className="flex flex-col justify-around h-[calc(90vh)] w-full">
 
                 <ul>
                     <div className="relative pb-2">
